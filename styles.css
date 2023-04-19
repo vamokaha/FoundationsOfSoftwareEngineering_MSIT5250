@@ -1,0 +1,98 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+
+header {
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5em;
+}
+
+/* Navigation styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Main content styles */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.product p {
+    font-size: 1em;
+    margin: 10px;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #ccc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
